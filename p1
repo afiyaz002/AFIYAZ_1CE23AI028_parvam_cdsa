@@ -1,0 +1,64 @@
+P1:
+#include<stdio.h>
+int main () {
+    int x;
+    printf("Enter a number: ");
+    scanf("%d", &x);
+    if (x>0){
+        printf("Entered number is positive.");
+    }
+    else {
+        printf("Entered number is negative.");
+    }
+    return 0;
+}
+P2:
+#include<stdio.h>
+int main() {
+    int x;
+    printf("Enter a number: ");
+    scanf("%d", &x);
+    if (x%2 == 0){
+        printf("%d is even", x);
+    }
+}
+P3:
+#include<stdio.h>
+int main() {
+    int a;
+    printf("Enter a number: ");
+    scanf("%d", &a);
+    if (a%2 == 0){
+        printf("%d is even", a);
+    }
+    else if (a%2 != 0){
+        printf("%d is odd", a);
+    }
+    else
+    printf("Invalid number");
+}
+P4:
+#include<stdio.h>
+int main() {
+    char a;
+    printf("Enter the character(Either Uppercase or Lowercase): ");
+    scanf("%s", &a);
+    if (a>='A' && a<= 'Z'){
+        printf("Given character is uppercase");
+    }
+}
+P5:
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int num;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    if (sqrt(num) * sqrt(num) == num) {
+        printf("Given number is a perfect square.", num);
+    }
+    return 0;
+}

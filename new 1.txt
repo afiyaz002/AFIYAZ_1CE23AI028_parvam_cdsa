@@ -1,0 +1,54 @@
+CDSA and Problem solving training (10 days)
+
+DAY 1 DATE:04-11-2024
+
+git commands:
+git status # it returns the status of the working directory
+git add .  # it marks all the files that are needed to be updated
+git commit -m # it commits or create a object which need to be updated
+git push origin main # it push the files which are situated in local repo to the remote repo
+
+
+
+
+
+
+data types
+1) char size of char 1byte
+
+2) int size 4 byte
+3)double size 8 byte
+note: by default signed data is most signed bit
+
+4) float -4tpes
+stores 6digits of decision
+5) manipulators
+2tpes- 1)the one that change sign(signed, unsigned)
+2)the one that changes size(short,long)
+note: by defalut by int is longint
+thus int is long int and signed long int
+long long int is 8byte
+short int is 2 byte
+
+KEYWORDS:
+1.for,while,do (loops)
+2.switch,case,default(to implement choosing between the options)
+3.if,else(to implement binary condition)
+4.break,: to take control out of the block
+ continue: to skip remaining insructions of current iteration and continue wih the nxt itration
+ 
+ return: to return control to the caller(calling function).alternatively we can return a value also.
+5. struct,union,enum(to create user defined data types)
+6.static: to create a global variable with file scope& to ceate a local variable with life till end of the program
+7. void: to mention that function doesnt return a value
+8. extern: to use an external variable(global varable declared in some othr file)
+9.const: to create aread only variable(constant variable)
+10. arithmtc oprts:+,-,*,/
+all re bianry oprts (binry oprts r which requires 2 operands) inpt are numbers,outputs is number 
+evaluted from left to right
+ex: in x+y-z (x+y is evaluted frst)
+the + &- oprts have lesser precedens(priority)
+the associtivity is over written by precedens of operts  ex: in  x-y|z y-z is evaluated frst
+in evry opertn data types of the oprnds must be same
+infix notation is used
+the evauation of any artmtc exprsion is written in infix notaion is conveted in postfix
