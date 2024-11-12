@@ -1,0 +1,6 @@
+public class LinkedList {
+  Node head ;
+  LinkedList(){
+    head = null;
+  }
+}
